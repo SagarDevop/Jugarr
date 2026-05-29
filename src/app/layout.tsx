@@ -51,6 +51,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+  },
   openGraph: {
     title: "Jugarr | India’s Student Hustle Network",
     description: "Buy, sell, collaborate and earn inside your campus ecosystem. Connecting the dots of student potential across India.",
