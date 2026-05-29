@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_OPTIONS='--max-old-space-size=300' next build --webpack",
-    "start": "NODE_OPTIONS='--max-old-space-size=300' next start",
+    "build": "NODE_OPTIONS='--max-old-space-size=300' npx --no-install next build --webpack",
+    "start": "NODE_OPTIONS='--max-old-space-size=300' npx --no-install next start",
     "lint": "eslint"
   },
   "dependencies": {
