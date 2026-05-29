@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
   // Disable browser source maps in production to save memory
   productionBrowserSourceMaps: false,
   experimental: {
+    // Force exactly 1 build/compilation CPU worker to prevent OOM on 512MB RAM Render containers
+    cpus: 1,
     // Optimize memory during Webpack/Turbopack compilation
     webpackMemoryOptimizations: true,
   },
