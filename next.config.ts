@@ -12,6 +12,8 @@ const nextConfig: NextConfig = {
     cpus: 1,
     // Optimize memory during Webpack/Turbopack compilation
     webpackMemoryOptimizations: true,
+    // Disable Webpack build worker process to run compilation in the main process and save memory
+    webpackBuildWorker: false,
   },
 };
 
